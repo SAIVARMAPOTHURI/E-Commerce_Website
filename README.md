@@ -1,33 +1,34 @@
-e-commerce-store
-Free hosting use for deployement, so it might be happen response take much time and some time its down, So please run this project on local for checking.
+# 🛒 E-Commerce Store
 
-Technology Which I Used
-Backend
+Free hosting is used for deployment, so responses might take some time, and sometimes the server may be down.  
+👉 Please run this project on **local machine** for testing and checking properly.
 
-Nodejs
-Mongodb
-Express
-Frontend
+---
 
-React Js
-Redux
+## 🚀 Technologies Used
 
-Step to Start Project
-For Backend
+### Backend
+- **Node.js**
+- **MongoDB**
+- **Express.js**
 
+### Frontend
+- **React.js**
+- **Redux**
+
+---
+
+## ⚡ Getting Started
+
+### Clone the Repository
+```bash
 git clone https://github.com/SAIVARMAPOTHURI/E-Commerce_Website
 cd e-comerce-backend
-npm i
-npm run data:import
-npm run dev
-For Frontend
+npm install
+npm run data:import   # Import sample data into database
+npm run dev           # Start backend server
+
 
 cd e-comerce-frontend
-npm i
-npm run start
-NOTE : If you stuck then contact me on LinkedIn (https://in.linkedin.com/in/mohit-sojitra)
-
-Request
-If You find any bug then please create issue i love to solve that
-If you want to contribute this project then feel free to make pull request i love to merge your request
-If You have suggestion or want new feature the feel free to create an issue with label features.
+npm install
+npm start             # Start frontend server
